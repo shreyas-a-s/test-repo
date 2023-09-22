@@ -3,3 +3,4 @@ Q: How to add Navigation menus to all pages.
 A: Structure -> Menus -> Navigation. The option should be there.
 Q: How to add php-daemon  to drupal?
 A: Use composer require shaneharter/php-daemon
+We had created tripal_blast directory using sudo. Keep that in mind.

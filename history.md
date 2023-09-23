@@ -4,3 +4,4 @@ A: Structure -> Menus -> Navigation. The option should be there.
 Q: How to add php-daemon  to drupal?
 A: Use composer require shaneharter/php-daemon
 We had created tripal_blast directory using sudo. Keep that in mind.
+INFO: Anytime we install an extension module we should check for new fields (in Structure -> Tripal Content Types -> Click a content type (eg: mRNA) -> Manage fields). Extension modules often will not do this for you because they do not assume you want these new fields.

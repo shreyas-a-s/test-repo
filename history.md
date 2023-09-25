@@ -10,3 +10,4 @@ Source: https://tripal-jbrowse.readthedocs.io/en/latest/guide/install/dependenci
 Test this out: Click on add tripal content -> genetic map -> find publication and click ass another item.
 Error: AJAX HTTP error occured.
 INFO: This doesn't occur in a new tripal 3 install on debian 12. Also doesn't occur in debian 11.
+NEW INFO: field_group-3205283-fix_unsupported_operand_error-2.path probably fixes this.

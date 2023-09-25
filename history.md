@@ -18,3 +18,7 @@ INFO: Tried on debian 12 by going to field_group directory and run the command
 but didn't work.
 INFO: Tripal_Daemon cannot be enabled using drush 'trpjob-daemon start' in tripal 3 in debian 12.
 INFO: At least one blast database must be made using Add Content so that blastn on homepage can launch.
+INFO: For the blast_ui to process things good, we need to do:
+```bash
+sudo chown -R www-data:www-data sites/default/files/tripal/
+```

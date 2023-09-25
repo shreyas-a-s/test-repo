@@ -9,4 +9,4 @@ INFO: JBrowse must be unpacked and ./setup.sh run. It must be located in a direc
 Source: https://tripal-jbrowse.readthedocs.io/en/latest/guide/install/dependencies.html
 Test this out: Click on add tripal content -> genetic map -> find publication and click ass another item.
 Error: AJAX HTTP error occured.
-INFO: This doesn't occur in a new tripal 3 install on debian 12.
+INFO: This doesn't occur in a new tripal 3 install on debian 12. Also doesn't occur in debian 11.

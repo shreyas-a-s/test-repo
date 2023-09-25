@@ -22,3 +22,5 @@ INFO: For the blast_ui to process things good, we need to do:
 ```bash
 sudo chown -R www-data:www-data sites/default/files/tripal/
 ```
+Starting focus on Debian 11.
+Tripal 3 installation via script is executed without any errors.

@@ -9,10 +9,11 @@ INFO: JBrowse must be unpacked and ./setup.sh run. It must be located in a direc
 Source: https://tripal-jbrowse.readthedocs.io/en/latest/guide/install/dependencies.html
 Test this out: Click on add tripal content -> genetic map -> find publication and click ass another item.
 Error: AJAX HTTP error occured.
-INFO: This doesn't occur in a new tripal 3 install on debian 12. Also doesn't occur in debian 11.
+INFO: This doesn't occur in a publication in new tripal 3 install on debian 12. Can  Also doesn't occur in debian 11.
 INFO: field_group-3205283-fix_unsupported_operand_error-2.path probably fixes this.
 INFO: Tried on debian 12 by going to field_group directory and run the command
 ```bash
  patch -p < field_group-3205283-fix_unsupported_operand_error-2.path
 ```
 but didn't work.
+INFO: Tripal_Daemon cannot be enabled using drush 'trpjob-daemon start' in tripal 3 in debian 12.

@@ -24,3 +24,5 @@ sudo chown -R www-data:www-data sites/default/files/tripal/
 ```
 Starting focus on Debian 11.
 Tripal 3 installation via script is executed without any errors.
+
+Testing a change

@@ -1,0 +1,28 @@
+{
+  "assemblies": [
+    {
+      "name": "citrus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "citrus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "citrus.fasta",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "citrus.fasta.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": []
+}

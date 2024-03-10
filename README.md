@@ -1,4 +1,4 @@
 Testing shell code blocks
-```shell
+```console
 git clone https://github.com/username/repo.git
 ```
